@@ -68,9 +68,6 @@ Content/*
 # Explicitly ignore the Assets folder
 Content/Assets/
 
-# Explicitly include Blueprints/
-!Content/Blueprints/**
-
 # Intermediate and Derived Data
 Intermediate/
 DerivedDataCache/

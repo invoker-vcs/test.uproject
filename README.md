@@ -16,6 +16,8 @@
 
 ### Plugins
 
+- Gameplay Abilities
+
 ### Build.cs
 
 - EnhancedInput

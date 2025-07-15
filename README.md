@@ -5,7 +5,7 @@
 - Change copyright notice
 - Change Editor Startup Map
 - Change Game Default Map
-- Change Default GameMode to "GM_ThirdPerson"
+- Change GameMode to "GM_TPBase"
 - Update Default InputComponent Class to "TPInputComponent"
 
 ### Editor Preferences

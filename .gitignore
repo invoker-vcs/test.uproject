@@ -80,8 +80,9 @@ DerivedDataCache/*
 # ------------------------------ START OF TEST IGNORE  ------------------------------
 
 # Ignore everything inside Content folder
-Content/**
+Content/**/*
 
 # Keep all Blueprints folders and their contents
+!Content/*
 !Content/**/Blueprints/
-!Content/**/Blueprints/**
+!Content/**/Blueprints/**/*

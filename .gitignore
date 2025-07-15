@@ -43,6 +43,7 @@
 *.VC.opendb
 .vsconfig
 *.code-workspace
+.ignore
 
 # Precompiled Assets
 SourceArt/**/*.png

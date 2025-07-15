@@ -1,6 +1,6 @@
-// ------------------------------ START OF THIRD PERSON ------------------------------
+[comment] ------------------------------ START OF THIRD PERSON ------------------------------
 
-# Project Settings
+### Project Settings
 
 - Change copyright notice
 - Change Editor Startup Map
@@ -8,22 +8,22 @@
 - Change Default GameMode to "GM_ThirdPerson"
 - Update Default InputComponent Class to "TPInputComponent"
 
-# Editor Preferences
+### Editor Preferences
 
 - Code Editor - VS Code
 - Disable Live Coding
 - Disable automatically compile newly added C++ classes
 
-# Plugins
+### Plugins
 
-# Build.cs
+### Build.cs
 
 - EnhancedInput
 - GameplayTags
 
-# Miscellaneous
+### Miscellaneous
 
-- .vscode -> settings.json
+.vscode -> settings.json
 
 ```
 {
@@ -36,7 +36,7 @@
 }
 ```
 
-- .vscode -> c_cpp_properties.json
+.vscode -> c_cpp_properties.json
 
 ```
 "includePath": [
@@ -48,4 +48,4 @@
 ],
 ```
 
-// ------------------------------ END OF THIRD PERSON ------------------------------
+[comment] ------------------------------ END OF THIRD PERSON ------------------------------

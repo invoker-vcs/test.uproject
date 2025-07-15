@@ -1,4 +1,4 @@
-[comment] ------------------------------ START OF THIRD PERSON ------------------------------
+# Third Person
 
 ### Project Settings
 
@@ -47,5 +47,3 @@
 	"${workspaceFolder}/Intermediate/Build/Win64",
 ],
 ```
-
-[comment] ------------------------------ END OF THIRD PERSON ------------------------------

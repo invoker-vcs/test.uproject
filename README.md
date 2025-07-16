@@ -6,10 +6,10 @@
 
 ```mermaid
 graph TD
-    A[Define Native Gameplay Tags<br/>(Define Input Tags)] --> B[Create Input Config Data Asset<br/>(Map Input Tags to Input Actions)]
-    B --> C[Custom Input Component<br/>(Binds Input Actions to Gameplay Tags)]
-    C --> D[Binding Inputs<br/>(Define Input Callbacks)]
-    D --> E[Assign Assets in Editor<br/>(Fill in Input Action Assets)]
+    A[Define Native Gameplay Tags\n(e.g., Input.Jump, Input.Fire)] --> B[Create Input Config Data Asset\n(Map Input Tags to Input Actions)]
+    B --> C[Custom Input Component\n(Binds Input Actions to Gameplay Tags)]
+    C --> D[Binding Inputs\n(Define Input Callbacks)]
+    D --> E[Assign Assets in Editor\n(Fill in Input Action Assets)]
 
     style A fill:#f9f,stroke:#333,stroke-width:1px
     style B fill:#bbf,stroke:#333,stroke-width:1px

@@ -48,6 +48,8 @@ Give to Hero Character (abilities tagged with input tags)
   - Hero Gameplay Ability (logic specific to player)
   - Enemy Gameplay Ability (logic specific to enemy)
 
+## Configuration
+
 ### Project Settings
 
 - Change copyright notice
@@ -99,13 +101,5 @@ Give to Hero Character (abilities tagged with input tags)
 "${workspaceFolder}/Source/test/Private",
 "${workspaceFolder}/Intermediate/Build/Win64",
 ],
-
-```
-
-```
-
-```
-
-```
 
 ```

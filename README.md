@@ -16,7 +16,6 @@ graph TD
     style C fill:#bfb,stroke:#333,stroke-width:1px
     style D fill:#ffd,stroke:#333,stroke-width:1px
     style E fill:#fcc,stroke:#333,stroke-width:1px
-```
 
 ### Component Structure
 
@@ -81,6 +80,8 @@ graph TD
 "${workspaceFolder}/Source/test/Private",
 "${workspaceFolder}/Intermediate/Build/Win64",
 ],
+
+```
 
 ```
 

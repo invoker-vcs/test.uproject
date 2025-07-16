@@ -1,5 +1,10 @@
 # Third Person
 
+- Base Pawn Extension Component (provides helper functions)
+  - Pawn Combat Component (provides combat functionality shared by both enemy and player)
+    _ Hero Combat Component (logic specific to player)
+    _ Enemy Combat Component (logic specific to enemy)
+
 ### Project Settings
 
 - Change copyright notice

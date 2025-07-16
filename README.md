@@ -2,8 +2,9 @@
 
 ## Project Architecture
 
-### Input Binding Structure
+### Binding Native Inputs
 
+```
 Define Native Gameplay Tags (define input tags)
 ↓
 Input Config Data Asset (map input tags to actions)
@@ -13,6 +14,27 @@ Custom Input Component (bind input actions to gameplay tags)
 Bind Input Callbacks (define input callbacks in the component)
 ↓
 Assign Assets in Editor (assign input config data asset to the component in the editor)
+```
+
+### Binding Ability Inputs
+
+```
+Input Component (pass input tag to callback)
+↓
+Character (pass onto ASC)
+↓
+Ability System Component (use input tag to activate ability)
+↓
+Ability Triggered
+```
+
+### Character Startup Data
+
+```
+Character Startup Data Asset (grant input tag to ability)
+↓
+Give to Hero Character (abilities tagged with input tags)
+```
 
 ### Component Structure
 

@@ -4,18 +4,15 @@
 
 ### Input Binding Structure
 
-```mermaid
-graph TD
-    A[Define Native Gameplay Tags\n(e.g., Input.Jump, Input.Fire)] --> B[Create Input Config Data Asset\n(Map Input Tags to Input Actions)]
-    B --> C[Custom Input Component\n(Binds Input Actions to Gameplay Tags)]
-    C --> D[Binding Inputs\n(Define Input Callbacks)]
-    D --> E[Assign Assets in Editor\n(Fill in Input Action Assets)]
-
-    style A fill:#f9f,stroke:#333,stroke-width:1px
-    style B fill:#bbf,stroke:#333,stroke-width:1px
-    style C fill:#bfb,stroke:#333,stroke-width:1px
-    style D fill:#ffd,stroke:#333,stroke-width:1px
-    style E fill:#fcc,stroke:#333,stroke-width:1px
+Define Native Gameplay Tags (define input tags)
+↓
+Input Config Data Asset (map input tags to actions)
+↓
+Custom Input Component (bind input actions to gameplay tags)
+↓
+Bind Input Callbacks (define input callbacks in the component)
+↓
+Assign Assets in Editor (assign input config data asset to the component in the editor)
 
 ### Component Structure
 
@@ -80,6 +77,8 @@ graph TD
 "${workspaceFolder}/Source/test/Private",
 "${workspaceFolder}/Intermediate/Build/Win64",
 ],
+
+```
 
 ```
 

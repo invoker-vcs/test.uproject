@@ -31,7 +31,7 @@ Ability Triggered
 ### Animation Layer Interface
 
 ```
-AnimLayer Inteface (declares states)
+AnimLayer Interface (declares states)
 ↓
 Fire State (empty, no animation)
 ↓
@@ -71,6 +71,11 @@ Give to Hero Character (abilities tagged with input tags)
 - Base Gameplay Ability (provides helper functions)
   - Hero Gameplay Ability (logic specific to player)
   - Enemy Gameplay Ability (logic specific to enemy)
+
+### Weapon Class Structure
+
+- Base Weapon (handles damage detection)
+  - Hero Weapon (weapon data unique to player)
 
 #
 

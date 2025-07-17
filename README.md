@@ -1,6 +1,6 @@
 # Third Person
 
-## Project Architecture
+## Input Actions
 
 ### Binding Native Inputs
 
@@ -28,6 +28,8 @@ Ability System Component (use input tag to activate ability)
 Ability Triggered
 ```
 
+## Animation Blueprint
+
 ### Animation Layer Interface
 
 ```
@@ -52,6 +54,8 @@ ABP_BaseAnimLayer (implements interface, define states, create variables)
 ABP_UnarmedLayer, ABP_PistolLayer (fill in actual anim assets)
 ```
 
+## Data
+
 ### Character Startup Data
 
 ```
@@ -59,6 +63,20 @@ Character Startup Data Asset (grant input tag to ability)
 ↓
 Give to Hero Character (abilities tagged with input tags)
 ```
+
+### Weapon Data
+
+```
+Hero Weapon Data
+↓
+Default Weapon Ability (UnEquipAxe, AxeLightAttack/AxeHeavyAttack)
+↓
+Input Mapping Context (override key binding, weapon key binding)
+↓
+Anim Layer to Link
+```
+
+## Structure
 
 ### Component Structure
 
@@ -76,6 +94,16 @@ Give to Hero Character (abilities tagged with input tags)
 
 - Base Weapon (handles damage detection)
   - Hero Weapon (weapon data unique to player)
+
+## Ability
+
+### New Ability Process
+
+1. Ability Tags
+2. Gameplay Ability
+3. Anim Montage
+4. Ability Input Action
+5. Grant Ability
 
 #
 

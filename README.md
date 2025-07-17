@@ -28,6 +28,30 @@ Ability System Component (use input tag to activate ability)
 Ability Triggered
 ```
 
+### Animation Layer Interface
+
+```
+AnimLayer Inteface (declares states)
+↓
+Fire State (empty, no animation)
+↓
+Idle State (empty, no animation)
+```
+
+```
+Animation Blueprint (implements interface)
+↓
+AnimLayer Interface (plug empty states into outputs)
+```
+
+```
+AnimLayer Interface
+↓
+ABP_BaseAnimLayer (implements interface, define states, create variables)
+↓
+ABP_UnarmedLayer, ABP_PistolLayer (fill in actual anim assets)
+```
+
 ### Character Startup Data
 
 ```

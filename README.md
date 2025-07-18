@@ -1,3 +1,14 @@
+# Gameplay Ability System Overview
+
+Ability System Component -> Gameplay Ability (Attack/Block/Roll) -> AttributeSet (Health/AttackPower) -> Gameplay Effect (Change Attributes)
+
+- GameplayTags
+  - Input Tags (Ability Activation)
+  - Ability Tags (Ability States)
+- GameplayCues
+  - Visual Effects (Particle Systems)
+  - Audio Effects (Sound Cues)
+
 # Third Person
 
 ## Input Actions

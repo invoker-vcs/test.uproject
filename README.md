@@ -95,7 +95,7 @@ Anim Layer to Link
 - Base Weapon (handles damage detection)
   - Hero Weapon (weapon data unique to player)
 
-## Ability
+## Setups
 
 ### New Ability Process
 
@@ -104,6 +104,13 @@ Anim Layer to Link
 3. Anim Montage
 4. Ability Input Action
 5. Grant Ability
+
+## New Enemy Character Process
+
+1. Enemy Character Class
+2. Enemy Startup Data Asset
+3. Enemy Gameplay Ability
+4. Enemy Combat Component
 
 #
 

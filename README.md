@@ -1,6 +1,14 @@
 # Gameplay Ability System Overview
 
-Ability System Component -> Gameplay Ability (Attack/Block/Roll) -> AttributeSet (Health/AttackPower) -> Gameplay Effect (Change Attributes)
+```
+Ability System Component (Heart of the system)
+↓
+Gameplay Ability (Attack/Block/Roll)
+↓
+Attribute Set (Health/AttackPower)
+↓
+Gameplay Effect (Change Attributes)
+```
 
 - GameplayTags
   - Input Tags (Ability Activation)
@@ -116,7 +124,7 @@ Anim Layer to Link
 4. Ability Input Action
 5. Grant Ability
 
-## New Enemy Character Process
+### New Enemy Character Process
 
 1. Enemy Character Class
 2. Enemy Startup Data Asset
@@ -150,7 +158,7 @@ Anim Layer to Link
 - EnhancedInput
 - GameplayTags
 
-### Miscellaneous
+# Miscellaneous
 
 .vscode -> settings.json
 

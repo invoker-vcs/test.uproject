@@ -13,3 +13,10 @@ enum class ETPValidType : uint8
 	Valid,
 	InValid
 };
+
+UENUM()
+enum class ETPSuccessType : uint8
+{
+	Successful,
+	Failed
+};

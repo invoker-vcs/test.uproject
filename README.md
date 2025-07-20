@@ -1,4 +1,6 @@
-# Gameplay Ability System Overview
+# Third Person
+
+## Gameplay Ability System Overview
 
 ```
 Ability System Component (Heart of the system)
@@ -10,7 +12,7 @@ Attribute Set (Health/AttackPower)
 Gameplay Effect (Change Attributes)
 ```
 
-## Gameplay Tags
+### Gameplay Tags
 
 ```
 GameplayTags → Input Tags (Ability Activation)
@@ -20,7 +22,7 @@ Gameplay Cues → Visual Effects (Particle Systems)
 Gameplay Cues → Audio Effects (Sound Cues)
 ```
 
-## Apply Damage
+### Apply Damage
 
 ```
 Gameplay Ability (GA_LightAttack, GA_HeavyAttack)
@@ -35,8 +37,6 @@ Attribute Set (clamp values)
 ↓
 Notify UI
 ```
-
-# Third Person
 
 ## Input Actions
 

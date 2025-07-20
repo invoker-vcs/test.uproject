@@ -17,6 +17,20 @@ Gameplay Effect (Change Attributes)
   - Visual Effects (Particle Systems)
   - Audio Effects (Sound Cues)
 
+```
+Gameplay Ability (GA_LightAttack, GA_HeavyAttack)
+↓
+Make Gameplay Effect Spec Handle (attack type, combo count, weapon base damage, instigator who created the effect)
+↓
+Apply Handle to Target
+↓
+Gameplay Effect Execution Calculation (capture attributes for calculation)
+↓
+Attribute Set (clamp values)
+↓
+Notify UI
+```
+
 # Third Person
 
 ## Input Actions
@@ -130,6 +144,15 @@ Anim Layer to Link
 2. Enemy Startup Data Asset
 3. Enemy Gameplay Ability
 4. Enemy Combat Component
+
+### Apply Damage Process
+
+1. Gameplay Ability (GA_LightAttack, GA_HeavyAttack)
+2. Make Gameplay Effect Spec Handle (attack type, combo count, weapon base damage, instigator who created the effect)
+3. Apply Handle to Target
+4. Gameplay Effect Execution Calculation (capture attributes for calculation)
+5. Attribute Set (clamp values)
+6. Notify UI
 
 #
 

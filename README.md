@@ -10,6 +10,8 @@ Attribute Set (Health/AttackPower)
 Gameplay Effect (Change Attributes)
 ```
 
+## Gameplay Tags
+
 ```
 GameplayTags → Input Tags (Ability Activation)
 GameplayTags → Ability Tags (Ability States)
@@ -17,6 +19,8 @@ GameplayTags → Ability Tags (Ability States)
 Gameplay Cues → Visual Effects (Particle Systems)
 Gameplay Cues → Audio Effects (Sound Cues)
 ```
+
+## Apply Damage
 
 ```
 Gameplay Ability (GA_LightAttack, GA_HeavyAttack)

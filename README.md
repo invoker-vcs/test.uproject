@@ -10,12 +10,13 @@ Attribute Set (Health/AttackPower)
 Gameplay Effect (Change Attributes)
 ```
 
-- GameplayTags
-  - Input Tags (Ability Activation)
-  - Ability Tags (Ability States)
-- GameplayCues
-  - Visual Effects (Particle Systems)
-  - Audio Effects (Sound Cues)
+```
+GameplayTags → Input Tags (Ability Activation)
+GameplayTags → Ability Tags (Ability States)
+↓
+Gameplay Cues → Visual Effects (Particle Systems)
+Gameplay Cues → Audio Effects (Sound Cues)
+```
 
 ```
 Gameplay Ability (GA_LightAttack, GA_HeavyAttack)
@@ -145,15 +146,6 @@ Anim Layer to Link
 3. Enemy Gameplay Ability
 4. Enemy Combat Component
 
-### Apply Damage Process
-
-1. Gameplay Ability (GA_LightAttack, GA_HeavyAttack)
-2. Make Gameplay Effect Spec Handle (attack type, combo count, weapon base damage, instigator who created the effect)
-3. Apply Handle to Target
-4. Gameplay Effect Execution Calculation (capture attributes for calculation)
-5. Attribute Set (clamp values)
-6. Notify UI
-
 #
 
 ## Configuration
@@ -175,6 +167,7 @@ Anim Layer to Link
 ### Plugins
 
 - Gameplay Abilities
+- Motion Warping
 
 ### Build.cs
 

@@ -114,6 +114,24 @@ Input Mapping Context (override key binding, weapon key binding)
 Anim Layer to Link
 ```
 
+## Widgets
+
+### Broadcast Values
+
+```
+Attribute Change (Player/Enemy)
+↓
+Pawn UI Component (through interface)
+↓
+Broadcast
+```
+
+```
+Widgets (HealthBar, RageBar, Icons)
+↓
+Listen and Update
+```
+
 ## Structure
 
 ### Component Structure
@@ -125,13 +143,20 @@ Anim Layer to Link
     - Enemy Combat Component (logic specific to enemy)
 
 - Base Gameplay Ability (provides helper functions)
+
   - Hero Gameplay Ability (logic specific to player)
   - Enemy Gameplay Ability (logic specific to enemy)
+
+- Pawn UI Component (variables shared by player and enemy)
+  - Hero UI Component (variables specific to player)
+  - Enemy UI Component (variables specific to enemy)
 
 ### Weapon Class Structure
 
 - Base Weapon (handles damage detection)
   - Hero Weapon (weapon data unique to player)
+
+### Pawn UI Structure
 
 ## Setups
 
